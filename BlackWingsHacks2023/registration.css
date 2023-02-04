@@ -1,0 +1,24 @@
+html{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(163,229,132,.5);
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+#regis-header {
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  margin-right: 1rem;
+}
+#regis-aboutme
+{
+  
+}
+input{
+  border-radius: 3px;
+  border: thin solid black;
+  padding: 3px;
+}
