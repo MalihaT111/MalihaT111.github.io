@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="login.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="signup.css" rel="stylesheet" type="text/css" />
+
+  <script src="script.js"></script>
+</head>
+
+<ul id="navbar">
+    <img id="logo" src="Green_Initiative__logos_w_trans.png" />
+    <li class="nav" id="signup" style="float:right"><a href="signup.html"> Create Account </a> </li>
+    <li class="nav" id="signin" style="float:right"><a href="login.html"> Log In </a> </li>
+    <li class="nav" style="float:right"> <a href="registration.html"> Create Event </a></li>
+    <li class="nav" style="float:right"><a href="eventspage.html"> Join Event</a></li>
+    <li class="nav" style="float:right"><a href="index.html"> About Us </a></li>
+  </ul>
+
+  <body>
+    <h1 id="login-header">Sign Up</h1>
+    
+    
+    <form align = "center" id="signin-form">
+      <br/>
+      
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" autocomplete="off">
+      
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="password" name="confpass" id="conf-password-field" class="login-form-field" placeholder="Confirm Password">
+      <br/>
+      <br/>
+      <select name="event" id="event">
+        <option value="sunset">Sunset Park Event</option>
+        <option value="silver">Rockaway Beach Event</option>
+        <option value="reading">Read for Kindergartners</option>
+        <option value="planet">Save the Planet Event</option>
+        <option value="soccer">Staten Island-NY Soccer Event</option>
+      </select>
+      <br/>
+      <br/>
+      <button onclick="createAccount();">Submit</button>
+      <br/>
+      <br/>
+    </form>
+    
+</body>

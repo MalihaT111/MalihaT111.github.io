@@ -6,25 +6,42 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
 </head>
 
 <body>
-  <ul>
-      <li style = "float:right"><a href="index.html">Home</a></li>
-      <li "float:right"> <a href="registration.html">Registration</a></li>
-      <li "float:right"><a href = "aboutus.html" > Events Page </a></li>
-    </ul>
-  <h1>Green Initiative</h1>
-    
-  <p1>Current Events:</p1>
-  <script src="script.js"></script>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  <ul id="navbar">
+    <img id="logo" src="Green_Initiative__logos_w_trans.png" />
+    <li class="nav" id="signup" style="float:right"><a href="signup.html"> Create Account </a> </li>
+    <li class="nav" id="signin" style="float:right"><a href="login.html"> Log In </a> </li>
+    <li class="nav" style="float:right"> <a href="registration.html"> Create Event </a></li>
+    <li class="nav" style="float:right"><a href="eventspage.html"> Join Event</a></li>
+    <li class="nav" style="float:right"><a href="index.html"> About Us </a></li>
+    <li class="nav" id="signout" style="float:right" onclick="logout();"><a href="index.html">Logout</a></li>
+  </ul>
+  
+  <h1>Green Initiative NYC</h1>
+  <div class = "paragraph">
+    <h2>About Us</h2>
+    <img src="community.jpg" height="400" width="500" class="center" alt="Animated image of people in a community. Image by pch.vector on Freepik"> 
+    <br/>
+  
+  <p2>
+    Our company, Green Initiative NYC, was established with a vision to bring together individuals and organizations who are passionate about keeping the city of New York clean and beautiful. Green Initiative NYC allows individuals and organizations to host and join volunteer events that focus on cleaning up various neighborhoods, parks, and beaches within the city. These events provide an opportunity for hosts and volunteers to give back to their community, engage in environmental conservation, and promote a sense of civic responsibility. We have a strong commitment to sustainability and environmental protection, and work closely with local authorities and environmental organizations to ensure that the cleaning events are carried out in an environmentally responsible manner. Through our efforts, we have become a leading voice in promoting environmental awareness and community service in New York City.</p2>
+  <h3>Why?</h3>
+  <p3>Keeping New York City clean is essential for both the environment and its citizens. A clean city not only enhances its aesthetic appeal but also improves the overall health and well-being of its residents. A clean environment is free of pollutants and waste, which can lead to respiratory problems, allergies, and other health issues. Keeping the city clean also promotes a sense of pride and ownership among its citizens, and encourages them to be more conscious of their environmental impact. Maintaining a clean city is important for the ecosystem and wildlife that depend on it. A cleaner New York City means less pollution in the air and water, which can help to mitigate the impact of climate change and protect the health of the local ecosystem. Overall, keeping New York City clean is a crucial step in creating a healthy, sustainable, and livable environment for its citizens.</p3>
+    <br></br>
+  </div>
+  <p>Developed with ❤️ by Maliha, Jessie, and Ariel</p>
+  <!-- hello o/->>
+      
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="green" defer></script>
 </body>
 
 </html>
+

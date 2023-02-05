@@ -1,24 +1,73 @@
-html{
-  height: 100%;
-  width: 100%;
-  background-color: rgba(163,229,132,.5);
+
+h1 {
+  text-align: center;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  display: block;
+  color: #534123;
+  font-size: 50px;
+  text-decoration: none;
 }
-body {
-  height: 100%;
-  width: 100%;
+
+a {
+  color: #529dff;
+}
+#logo {
+  width: 25%;
+  height: 25%;
 }
 #regis-header {
-  background-color: white;
+  background-color: #EAE7B1;
   border-radius: 25px;
   padding: 20px;
-  margin-right: 1rem;
+  margin: 1rem;
 }
 #regis-aboutme
 {
-  
+  padding: 3px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+	transform: translateY(-5px);
+  display: block;
+  text-align: center;
+  font-family: "Futura", sans-serif;
 }
 input{
-  border-radius: 3px;
-  border: thin solid black;
-  padding: 3px;
+  text-align: center;
+  border-radius: 10px;
+  border: thin solid green;
+  padding: 10px;
+}
+
+button {
+  border-radius: 40px;
+  background: #1877F2;
+  color: #FFFFFF;
+  width: 175px;
+  height: 40px;
+}
+
+form{
+  text-align: center;
+  border-radius: 50px;
+  background-color: #EAE7B1;
+  width: 500px;
+  margin:auto;
+}
+
+p {
+  text-align: right;
+  padding-right: 25px;
+  color: #534123;
+}
+
+p1{
+  text-align: justify;
+  border-spacing: 20px;
+  border-radius: 15px;
+  background-color: #534123;
+  font-size: 20px;
+  color: #EAE7B1;
+  width: 1100px;
+  margin:auto;
 }

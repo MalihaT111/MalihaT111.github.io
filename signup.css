@@ -1,0 +1,37 @@
+  h1 {
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  display: block;
+  color: #534123;
+  text-decoration: none;
+}
+
+form{
+  text-align: center;
+  border-radius: 25px;
+  background-color: #EAE7B1;
+  width: 700px;
+  margin:auto;
+}
+
+input{
+  text-align: center;
+  border-radius: 10px;
+  border: thin solid green;
+  padding: 10px;
+}
+
+select {
+  text-align: center;
+  border-radius: 10px;
+  border: thin solid green;
+  padding: 10px;
+}
+
+button {
+  border-radius: 40px;
+  background: #1877F2;
+  color: #FFFFFF;
+  width: 175px;
+  height: 40px;
+}
