@@ -1,5 +1,5 @@
 # MalihaT111.github.io
-ment for its citizens.
+
 
 ## Inspiration
 Two out of the three team members live in New York City. New York City is known for its towering skyscrapers, famous neighborhoods, and its diversity. It is also known for being plagued by trash and rats everywhere. Neglecting to properly maintain neighborhoods can lead to litter, waste buildup, and an overgrowth of harmful invasive species. These conditions can create breeding grounds for pests, reduce air and water quality, and contribute to soil degradation. Clean parks, beaches, and neighborhoods in general also provide a healthier and more attractive environment for both wildlife and humans to enjoy.
